@@ -1,4 +1,5 @@
 import Ed from "./education";
+import Job from "./job";
 import Skills from "./skills";
 
 export default function Home() {
@@ -19,8 +20,13 @@ export default function Home() {
                 <Ed/>
             </div>
 
+            <div className="flex justify-end">
+                <Job/>
+            </div>
 
+            <footer className="bg-black h-20 border-t border-b rounded-t-2xl">
 
+            </footer>
 
         </div>
     )
