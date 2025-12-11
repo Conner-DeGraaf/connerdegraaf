@@ -17,7 +17,7 @@ function NavBar(){
   <NavigationMenu>
     <NavigationMenuList className="flex font-semibold">
       
-      <Avatar className="h-8 w-8 ml-1">
+      <Avatar className="h-auto w-auto">
         <AvatarImage src="/CTD.png"/>
         <AvatarFallback>CTD</AvatarFallback>
       </Avatar>
@@ -36,12 +36,13 @@ function NavBar(){
       </NavigationMenuItem>
 
       <NavigationMenuItem>
-        <Button className="bg-gray-200 text-black hover:bg-gray-700 hover:text-white h-5 w-15 md:h-8 md:w-20">Resume</Button>
+        <Button className="bg-gray-200 text-black hover:bg-gray-700 hover:text-white h-auto w-auto">Resume</Button>
       </NavigationMenuItem>
 
     </NavigationMenuList>
   </NavigationMenu>
  )
 }
+
 
 export default NavBar
