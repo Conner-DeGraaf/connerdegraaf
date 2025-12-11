@@ -8,45 +8,43 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-export default function Ed(){
+export default function Job(){
 
     return(
-        <div className="flex my-20">
-            <div className="bg-red h-[40*3] w-0.5 ml-20 md:ml-50 lg:ml-70"></div>
+        <div className="flex">
             <div className="flex-row w-full">
-                <div className="ed">
+                <div className="job">
                     <Card className="border-0 text-[min(2.4vw,1em)]">
-                        <CardHeader>Grand Valley State University</CardHeader>
+                        <CardHeader>Structured Learning Assistant(SLA)</CardHeader>
                         <CardContent>
-                           <p>Major: Computer Science </p> 
-                            <p>Minor: Mathematics</p>
+                           <p>Work with professors to assistant students in a college class.</p>
                         </CardContent>
                         <CardFooter>
-                            <p>2024-2028</p>
+                            <p>Fall 2025 - Present</p>
                         </CardFooter>
 
                     </Card>
                 </div>
-                <div className="ed">
+                <div className="job">
                     <Card className="border-0 text-[min(2.4vw,1em)]">
-                        <CardHeader>Lake Michigan College</CardHeader>
+                        <CardHeader>Tutoring at GVSU</CardHeader>
                         <CardContent>
-                           <p>Major: General Science</p>
+                           <p>Work collaboratively with students to help with spesific areas in the course in 50 minute sessions.</p>
                         </CardContent>
                         <CardFooter>
-                            <p>2022-2024</p>
+                            <p>Winter/Spring 2025 - Present</p>
                         </CardFooter>
                     </Card>
 
                 </div>
-                <div className="ed">
+                <div className="job">
                     <Card className="border-0 text-[min(2.4vw,1em)]">
-                        <CardHeader>Math & Sciecne Center</CardHeader>
+                        <CardHeader>Bosch Internship</CardHeader>
                         <CardContent>
-                           <p>Highschool Diploma</p>
+                           <p>Work with enginers to solve a multitude of problems including: CNC, Tooling, and Procedures.</p>
                         </CardContent>
                         <CardFooter>
-                            <p>2018-2022</p>
+                            <p>Summer 2025</p>
                         </CardFooter>
                     </Card>
 
@@ -54,6 +52,7 @@ export default function Ed(){
 
 
             </div>
+            <div className="bg-red h-[40*3] w-0.5 mr-20 md:mr-50 lg:mr-70"></div>
 
         </div>
     )

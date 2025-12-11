@@ -15,9 +15,9 @@ import {
 function NavBar(){
  return (
   <NavigationMenu>
-    <NavigationMenuList className="flex w-screen px-10 font-semibold">
+    <NavigationMenuList className="flex w-screen font-semibold">
       
-      <Avatar className="h-10 w-10">
+      <Avatar className="h-10 w-10 ml-10">
         <AvatarImage src="/CTD.png"/>
         <AvatarFallback>CTD</AvatarFallback>
       </Avatar>
@@ -35,7 +35,7 @@ function NavBar(){
         <NavigationMenuLink>  <Link to='/'>Contact</Link>  </NavigationMenuLink>
       </NavigationMenuItem>
 
-      <NavigationMenuItem className="ml-auto">
+      <NavigationMenuItem className="ml-auto mr-5">
         <Button className="bg-gray-200 text-black hover:bg-gray-700 hover:text-white">Resume</Button>
       </NavigationMenuItem>
 

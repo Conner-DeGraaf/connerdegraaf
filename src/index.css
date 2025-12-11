@@ -12,7 +12,6 @@
   }
 }
 
-
 #root{
   font-family: 'Courier New', Courier, monospace;
 }
@@ -33,6 +32,14 @@ body{
 
 .tab-trigger{
   @apply hover:text-hvr data-[state=active]:text-gray-200 data-[state=active]:bg-btn rounded p-3
+}
+
+.ed{
+  @apply w-80 sm:w-120 bg-black m-5 rounded-2xl border-b border-t
+}
+
+.job{
+  @apply w-80 sm:w-120 bg-black m-5 rounded-2xl border-b border-t sm:ml-50
 }
 
 
