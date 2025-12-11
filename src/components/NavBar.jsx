@@ -17,7 +17,7 @@ function NavBar(){
   <NavigationMenu>
     <NavigationMenuList className="flex font-semibold">
       
-      <Avatar className="h-auto w-auto">
+      <Avatar className="h-5 w-5 md:h-8 md:w-8">
         <AvatarImage src="/CTD.png"/>
         <AvatarFallback>CTD</AvatarFallback>
       </Avatar>
@@ -46,3 +46,4 @@ function NavBar(){
 
 
 export default NavBar
+
