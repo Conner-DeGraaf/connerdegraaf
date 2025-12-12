@@ -11,8 +11,8 @@ import {
 export default function Job(){
 
     return(
-        <div className="flex">
-            <div className="flex-row w-full">
+        <div className="flex py-2 px-4 space-x-4">
+            <div className="flex-row w-full space-y-4 ">
                 <div className="job">
                     <Card className="border-0 text-[min(2.4vw,1em)]">
                         <CardHeader>Structured Learning Assistant(SLA)</CardHeader>
@@ -41,7 +41,7 @@ export default function Job(){
                     <Card className="border-0 text-[min(2.4vw,1em)]">
                         <CardHeader>Bosch Internship</CardHeader>
                         <CardContent>
-                           <p>Work with enginers to solve a multitude of problems including: CNC, Tooling, and Procedures.</p>
+                           <p>Worked in Manufacturing Engineering to create procedures, preform testing, and troubleshoot CNC machines.</p>
                         </CardContent>
                         <CardFooter>
                             <p>Summer 2025</p>
@@ -52,7 +52,7 @@ export default function Job(){
 
 
             </div>
-            <div className="bg-red h-[40*3] w-0.5 mr-20 md:mr-50 lg:mr-70"></div>
+            <div className="bg-red h-[40*3] w-1 md:mr-50 lg:mr-70 rounded-3xl"></div>
 
         </div>
     )

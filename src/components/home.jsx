@@ -24,10 +24,6 @@ export default function Home() {
                 <Job/>
             </div>
 
-            <footer className="bg-black h-20 border-t border-b rounded-t-2xl">
-
-            </footer>
-
         </div>
     )
 }

@@ -11,15 +11,15 @@ import {
 export default function Ed(){
 
     return(
-        <div className="flex my-20">
-            <div className="bg-red h-[40*3] w-0.5 ml-20 md:ml-50 lg:ml-70"></div>
-            <div className="flex-row w-full">
+        <div className="flex my-2 space-x-4 px-4">
+            <div className="bg-red h-[40*3] w-1 md:ml-20 lg:ml-50 rounded-3xl"></div>
+            <div className="flex-row w-full space-y-4">
                 <div className="ed">
                     <Card className="border-0 text-[min(2.4vw,1em)]">
                         <CardHeader>Grand Valley State University</CardHeader>
                         <CardContent>
-                           <p>Major: Computer Science </p> 
-                            <p>Minor: Mathematics</p>
+                           <p>Bachelor's Computer Science </p> 
+                            <p>Minor in Mathematics</p>
                         </CardContent>
                         <CardFooter>
                             <p>2024-2028</p>
@@ -31,7 +31,7 @@ export default function Ed(){
                     <Card className="border-0 text-[min(2.4vw,1em)]">
                         <CardHeader>Lake Michigan College</CardHeader>
                         <CardContent>
-                           <p>Major: General Science</p>
+                           <p>Associate's in General Science</p>
                         </CardContent>
                         <CardFooter>
                             <p>2022-2024</p>
@@ -43,7 +43,7 @@ export default function Ed(){
                     <Card className="border-0 text-[min(2.4vw,1em)]">
                         <CardHeader>Math & Sciecne Center</CardHeader>
                         <CardContent>
-                           <p>Highschool Diploma</p>
+                           <p>Highschool Math Program at Andrew's University</p>
                         </CardContent>
                         <CardFooter>
                             <p>2018-2022</p>
