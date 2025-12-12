@@ -10,6 +10,9 @@
   h1{
     font-size:2.5em;
   }
+  h2{
+    font-size:1.5em
+  }
 }
 
 #root{
@@ -18,7 +21,7 @@
 
 body{
   background-image: linear-gradient(to right, #060605, #2c0715);
-  @apply text-red text-[min(3vw,1em)]
+  @apply text-red text-[min(4vw,1em)] pt-30
 }
 
 :Link{
@@ -35,12 +38,19 @@ body{
 }
 
 .ed{
-  @apply w-80 sm:w-120 bg-black m-5 rounded-2xl border-b border-t
+  @apply w-full sm:w-120 bg-black rounded-2xl border-b border-t
 }
 
 .job{
-  @apply w-80 sm:w-120 bg-black m-5 rounded-2xl border-b border-t sm:ml-50
+  @apply w-full sm:w-120 bg-black rounded-2xl border-b border-t sm:ml-50
 }
 
+.hobby_card{
+  @apply h-95 md:w-100 bg-black rounded-2xl border-b
+}
+
+.projects_card{
+  @apply h-95 bg-black rounded-3xl border-b
+}
 
 

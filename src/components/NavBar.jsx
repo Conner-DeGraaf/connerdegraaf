@@ -14,15 +14,15 @@ import {
 
 function NavBar(){
  return (
-  <NavigationMenu>
-    <NavigationMenuList className="flex w-screen font-semibold">
+  <NavigationMenu className="fixed top-0 bg-black rounded-4xl">
+    <NavigationMenuList className="flex font-semibold">
       
-      <Avatar className="h-10 w-10 ml-10">
+      <Avatar className="h-8 w-8 ml-2">
         <AvatarImage src="/CTD.png"/>
         <AvatarFallback>CTD</AvatarFallback>
       </Avatar>
 
-      <NavigationMenuItem >
+      <NavigationMenuItem>
         <NavigationMenuLink>  <Link to='/'>Home</Link>  </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
@@ -33,10 +33,6 @@ function NavBar(){
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink>  <Link to='/'>Contact</Link>  </NavigationMenuLink>
-      </NavigationMenuItem>
-
-      <NavigationMenuItem className="ml-auto mr-5">
-        <Button className="bg-gray-200 text-black hover:bg-gray-700 hover:text-white">Resume</Button>
       </NavigationMenuItem>
 
     </NavigationMenuList>

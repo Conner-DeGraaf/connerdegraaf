@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar.jsx'
+import Foot from './components/footer.jsx'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './components/home.jsx'
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/aboutme" element={<AboutMe/>}/>
       <Route path="/projects" element={<Projects/>}/>
     </Routes>
+    <Foot/>
     
   </BrowserRouter>,
 )
